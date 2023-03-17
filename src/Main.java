@@ -6,10 +6,12 @@ public class Main {
         System.out.print("Please enter a number : ");
         int givenNum = input.nextInt();
         System.out.println();
-        for(int i = 0; i < givenNum; i++){
+        int i = 1;
+        while(i <= givenNum; ){
             if(i % 2 == 0){
                 System.out.println("Numbers that are even excluding given number : " + i);
             }
+            i++
         }
 
 
